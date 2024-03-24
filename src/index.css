@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.main-content-container {
+}
+.initial-main-content {
+  position: relative;
+  top: 40%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.image-asset {
+  width: 10%;
+  height: 10%;
+}
+
+.create-new-project-btn {
+  width: 200px;
+  cursor: pointer;
+  height: 40px;
+  background-color: blue;
+  color: white;
+}
+
+.input-container,
+.text-area-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-container p,
+.text-area-container p {
+  text-transform: uppercase;
+}
+
+.input-container input {
+  height: 40px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.text-area-container textarea {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.create-project-container {
+  position: relative;
+  left: 40%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.primary-button {
+  width: 200px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+}
+
+.secondary-button {
+  width: 200px;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.action-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+    font-size: x-large;
+    font-family: fantasy;
+}
+
+.project-detail-item label{
+    color: grey;
+}
+
+.project-detail-container {
+    margin: 5%;
+}
+
+.add-task-container {
+    align-items: end;
+}
